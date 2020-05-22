@@ -17,7 +17,9 @@ All information about the identification game is available here: https://www.kag
 ## User guide
 We implemented multiple models to classify 100,000 images into 200 classes (500 in each class). To train the models, simply run the Jupyter notebook [identification_game.ipynb](identification_game.ipynb).
 
-The trained models can be found with **.pth** as extension, and can be easily loaded with:
+The trained models can be saved as files with **.pth** as extension:
+>torch.save(model_name, save_path)
+when you want to continue training, the trained models can be easily loaded with:
 >model = torch.load('./model_name.pth')
 
 ## Implementation
