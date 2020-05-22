@@ -19,6 +19,7 @@ We implemented multiple models to classify 100,000 images into 200 classes (500 
 
 The trained models can be saved as files with **.pth** as extension:
 >torch.save(model_name, save_path)
+
 when you want to continue training, the trained models can be easily loaded with:
 >model = torch.load('./model_name.pth')
 
