@@ -1,6 +1,5 @@
-# ACSE 4.4 - Machine Learning Miniproject
 
-## The Identification Game
+# The Identification Game
 ### The Data
 This project is an image classification problem consisting of Natural Images. You are provided a dataset consisting of images and associated labels. Most of the images have 3 channels for colour, RGB, meaning they are 64x64x3 arrays. Each image belongs to exactly one out of 200 categories. The dataset contains 100k images (500 from each category). The test set have no labels. Further validation/test splits are needed for the training process.
 
